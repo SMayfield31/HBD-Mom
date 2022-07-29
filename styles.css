@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    background: linear-gradient(lightblue, darkblue, magenta);
+    color: aliceblue;
+    text-shadow: 0 0 2px black;
+    
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 2px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid plum;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: plum;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: plum;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+
+}
+
+#gift-img-eyebrows:hover {
+    background-image: url("images/eyebrows.gif");
+    max-width: 480px;
+    height: 355px; 
+    
+}
+
+#gift-img-heard:hover {
+    background-image: url("images/heard.gif");
+     transform-style: all;
+            transition-duration: 1s;
+}
+
+#gift-img-dance:hover {
+    background-image: url("images/dance.gif");
+    transform-style: all;
+            transition-duration: 3s;
+}
+
+#gift-img-cookies:hover {
+    background-image: url("images/cookies.gif");
+                    transform-style: all;
+            transition-duration: 1s; 
+                max-width: 360px;
+    height: 246px;   
+}
+
+#gift-img-gamble:hover {
+    background-image: url("images/gamble.gif");
+       transform-style: all; 
+            transition-duration: 1s; 
+                   
+      max-width: 480px;
+    height: 286px;
+    
+        
+    
+}
+
+#footer {
+    font-style: italic;
+    width: 800px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
